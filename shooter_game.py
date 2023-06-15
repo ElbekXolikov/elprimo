@@ -101,7 +101,7 @@ while game:
     if not finish:
         if rel_time == True:
             now_time = timer()
-            if now_time - last_time < 10:
+            if now_time - last_time < 1:
                 reload = font2.render('Reloading ...',1,(150,0,0))
                 window.blit(reload,(260,460))
             else:
